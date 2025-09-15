@@ -12,6 +12,8 @@
 
 [一个简单的随机点歌小软件](https://gitee.com/ji-or-ji/random_songs)
 
+[御风bot](https://gitee.com/ji-or-ji/yufeng-bot) __（一个基于napcat与python的赛博群友）__  **开发ing...** 
+
 #### 参与贡献
 
 1.  Fork 本仓库
