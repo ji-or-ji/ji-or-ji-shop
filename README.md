@@ -10,9 +10,11 @@
 
 很简单，只需要点击 **相应的文本** 就可以跳转到 **相应的界面** 了
 
+[Python重温计划](https://gitee.com/ji-or-ji/Python-Rediscovery-Path)
+
 [一个简单的随机点歌小软件](https://gitee.com/ji-or-ji/random_songs)
 
-[御风bot](https://gitee.com/ji-or-ji/yufeng-bot) _（一个基于napcat与python的赛博群友）_  **开发ing...** 
+[御风bot](https://gitee.com/ji-or-ji/yufeng-bot) _（一个基于napcat与python的赛博群友）_  **暂停ing...** 
 
 #### 参与贡献
 
