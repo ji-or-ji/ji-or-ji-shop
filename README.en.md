@@ -22,9 +22,8 @@ A feature-rich Python CLI random-song picker: song / requester / multi-playlist 
 
 [Random Songs system · remake](https://gitee.com/ji-or-ji/replace_random_songs_system)
 A full rewrite of the original: YAML data, offline-friendly install, a headless CLI mode
-(convenient for hooking up with ClassIsland), plus a native Windows desktop app (.NET 8 + WinUI 3).
-Duplicate prevention, QQ Music playlist sync, batch import from files / folders, local playback,
-and data backup & restore. **Currently v3.1.0.**
+(convenient for hooking up with ClassIsland) and a native Windows desktop app (.NET 8 + WinUI 3),
+both sharing the same data. See the repository for the full feature list.
 
 [desk-ink · desk e-ink info station](https://gitee.com/ji-or-ji/desk-ink)
 ESP32-C3 + a 4.2" e-ink display showing timetable / to-dos / a daily quote / news / illustrations,

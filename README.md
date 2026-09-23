@@ -21,9 +21,8 @@
 功能丰富的 Python 命令行随机点歌系统：歌曲 / 点歌人 / 多歌单管理、自动网页跳转、操作历史。
 
 [随机点歌系统 · 重制版](https://gitee.com/ji-or-ji/replace_random_songs_system)
-在原版基础上完整重写：YAML 数据、可离线安装、命令行静默抽歌（便于与 ClassIsland 联动），
-并新增原生的 Windows 桌面端（.NET 8 + WinUI 3）。支持防重复播放、QQ 音乐歌单同步、
-从文件 / 文件夹批量导入、本地播放模式、数据备份与恢复。 **当前 v3.1.0。**
+在原版基础上完整重写：数据改用 YAML、可离线安装；既有命令行版（静默抽歌，便于与 ClassIsland 联动），
+也有原生的 Windows 桌面端（.NET 8 + WinUI 3），两边共用同一份数据。详细功能见仓库说明。
 
 [desk-ink · 桌面墨水屏信息站](https://gitee.com/ji-or-ji/desk-ink)
 ESP32-C3 + 4.2 寸墨水屏，显示课表 / 待办 / 每日一言 / 新闻 / 插画；设计主线是省电
