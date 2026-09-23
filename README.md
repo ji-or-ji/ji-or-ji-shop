@@ -30,14 +30,14 @@ ESP32-C3 + 4.2 寸墨水屏，显示课表 / 待办 / 每日一言 / 新闻 / �
 **尚未实机验证**：代码与 UI 已完成（UI 在 QEMU 里逐状态验证过），但尚未点亮真实墨水屏、
 未连接真实硬件、PCB 尚未布线。
 
-[御风bot](https://gitee.com/ji-or-ji/yufeng-bot) _（一个基于 NapCat 与 Python 的赛博群友）_ **暂停ing...**
+[御风bot](https://gitee.com/ji-or-ji/yufeng-bot) _（一个基于 NapCat 与 Python 的赛博群友）_ **已停止开发**（相关能力已由 MaiBot 配合自研插件实现）
 从零搭建的多 AI 代理群聊系统：人格代理、长期记忆、富媒体理解与主动社交，
 试图在代码中注入"灵魂"的实验。
 
 [卧底机器人 (UndercoverBot)](https://gitee.com/ji-or-ji/Undercover-Bot)
 一个用于潜伏在 QQ 群中监控关键词、自动预警、收集证据的机器人框架。
-初衷是帮助大家快速建立防线，应对网络不良信息。 **目前处于初期想法阶段**（已确认技术可行性），
-欢迎感兴趣的朋友一起讨论和开发！
+**目前暂时搁置**（已确认技术可行性；初衷是应对网络不良信息，眼下不再需要）。
+代码留作参考，欢迎感兴趣的朋友自行取用。
 
 [超薄版 ZHAO-watchV2 · CLion 版](https://gitee.com/ji-or-ji/ZHAO-watch-V2_CLion_Edition)
 原版是 Keil（µVision5）工程，这里重制为 CLion + CMake 工程（超薄版），以适合现代化开发。

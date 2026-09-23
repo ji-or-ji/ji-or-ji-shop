@@ -33,14 +33,14 @@ The companion PC tool is also .NET 8 + WinUI 3.
 QEMU), but no real e-ink panel has been lit up, no real hardware has been connected, and the PCB
 is not routed yet.
 
-[yufeng-bot](https://gitee.com/ji-or-ji/yufeng-bot) _(a cyber group-mate built on NapCat and Python)_ **paused...**
+[yufeng-bot](https://gitee.com/ji-or-ji/yufeng-bot) _(a cyber group-mate built on NapCat and Python)_ **development stopped** (its capabilities are now covered by MaiBot plus plugins I wrote myself)
 A multi-agent group-chat system built from scratch: persona agents, long-term memory, rich-media
 understanding and proactive socialising — an experiment trying to put "a soul" into code.
 
 [UndercoverBot](https://gitee.com/ji-or-ji/Undercover-Bot)
-A bot framework that lurks in QQ groups to watch for keywords, warn automatically and collect evidence,
-aimed at helping communities quickly build a line of defence against harmful content.
-**Still at the idea stage** (technical feasibility confirmed); discussion and contributions are welcome!
+A bot framework that lurks in QQ groups to watch for keywords, warn automatically and collect evidence.
+**Currently shelved** (technical feasibility confirmed; the original motivation — coping with harmful
+content online — no longer applies). The code is kept for reference; feel free to make use of it.
 
 [ZHAO-watchV2 Slim · CLion edition](https://gitee.com/ji-or-ji/ZHAO-watch-V2_CLion_Edition)
 The original was a Keil (µVision5) project; this is a rework as a CLion + CMake project (slim version)
