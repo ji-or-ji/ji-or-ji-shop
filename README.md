@@ -49,7 +49,7 @@ ESP32-C3 + 4.2 寸墨水屏，显示课表 / 待办 / 每日一言 / 新闻 / �
 [浮墨笔记（flomo）接入插件](https://gitee.com/ji-or-ji/open-hanako-flomo)
 为 Hanako 提供 flomo 笔记的写入、导入、搜索与管理能力（Agent 驱动）。 Apache-2.0。
 
-[终末地风格局域网设备监视台](https://gitee.com/ji-or-ji/endfiled-monitor)
+[终末地风格局域网设备监视台](https://gitee.com/ji-or-ji/endfield-monitor)
 不开远程桌面就能看见一台 Windows 机器的运行状况：C# + Avalonia 桌面客户端配一个只读的
 Python 采集端，实时读 CPU / 内存 / 磁盘 / 网络 / 进程，也能顺带盯住指定的服务与端口。
 界面风格致敬 zmd-manager。 **进行中。**
