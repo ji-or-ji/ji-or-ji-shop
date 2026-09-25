@@ -52,3 +52,8 @@ cleanup, and rollback to any previous version.
 
 [flomo integration plugin](https://gitee.com/ji-or-ji/open-hanako-flomo)
 Adds flomo note writing, import, search and management to Hanako (agent-driven). Apache-2.0.
+
+[Endfield-style LAN device monitor](https://gitee.com/ji-or-ji/enfiled-monitor)
+See how a Windows machine is doing without opening a remote desktop: a C# + Avalonia desktop client
+plus a read-only Python collector, reading CPU / memory / disks / network / processes and bot service
+status in real time. UI style pays tribute to zmd-manager. **In progress.**
