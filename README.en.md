@@ -55,5 +55,5 @@ Adds flomo note writing, import, search and management to Hanako (agent-driven).
 
 [Endfield-style LAN device monitor](https://gitee.com/ji-or-ji/enfiled-monitor)
 See how a Windows machine is doing without opening a remote desktop: a C# + Avalonia desktop client
-plus a read-only Python collector, reading CPU / memory / disks / network / processes and bot service
-status in real time. UI style pays tribute to zmd-manager. **In progress.**
+plus a read-only Python collector, reading CPU / memory / disks / network / processes, and keeping an
+eye on chosen services and ports. UI style pays tribute to zmd-manager. **In progress.**
