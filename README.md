@@ -16,6 +16,8 @@
 
 ## 现在有什么
 
+### 软件与工具
+
 [Python重温计划](https://github.com/ji-or-ji/Python-Rediscovery-Path)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/Python-Rediscovery-Path)
 从零重温 Python 的学习记录：学习地图、笔记与练习。 **进行中。**
 
@@ -55,3 +57,39 @@ ESP32-C3 + 4.2 寸墨水屏，显示课表 / 待办 / 每日一言 / 新闻 / �
 不开远程桌面就能看见一台 Windows 机器的运行状况：C# + Avalonia 桌面客户端配一个只读的
 Python 采集端，实时读 CPU / 内存 / 磁盘 / 网络 / 进程，也能顺带盯住指定的服务与端口。
 界面风格致敬 zmd-manager。 **进行中。**
+
+### 麦麦 / Hanako 插件
+
+[插件安装审批器](https://github.com/ji-or-ji/maibot-plugin-installer)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/maibot-plugin-installer)
+把造好的麦麦插件经**管理员批准**后自动安装并启用，在发起任务的聊天流里请求审批；
+是[麦麦 × dsh 桥](https://github.com/ji-or-ji/maibot-dsh-bridge)的配套下游。
+
+[麦麦 × dsh 桥](https://github.com/ji-or-ji/maibot-dsh-bridge)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/maibot-dsh-bridge)
+把 DeepSeek Harness 接入麦麦：一句话下单、dsh 在后台把活干完，过程以合并转发回传，
+产出的文件打包发回群，还能定时自排班。
+
+[Hanako2DSH](https://github.com/ji-or-ji/hanako2dsh)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/hanako2dsh)
+把本机官方的 DeepSeek Harness 接进 Hana：**一个页签里看它干活，一句话把活派给它。**
+
+[麦麦假装看视频](https://github.com/ji-or-ji/mai-video-adaptive)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/mai-video-adaptive)
+麦麦视频理解插件：抽多少帧由画面内容决定（不是定时抽），配合语音转录交给视觉模型理解，
+重复视频秒级复用。**不会主动对视频发表评论。**
+
+[麦麦不发 emoji 了](https://github.com/ji-or-ji/maimai-no-more-emoji)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/maimai-no-more-emoji)
+检测麦麦出站消息里的 emoji，由 LLM 判断是否该替换，若该换就从表情包库挑一张合适的图片放到消息末尾，
+治「结尾/句中硬塞 emoji、用得多且不贴切、显得出戏」。
+
+[窝幺烟牌（预警管家）](https://github.com/ji-or-ji/guardian-alert-plugin)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/guardian-alert-plugin)
+监测私聊 / 群聊中的风险信号（拉群邀请 / 情感依赖 / 隐私泄露 / 金钱往来 / 冒充话术 / 诱导操纵），
+命中后自动推送管理员，及时发现 bot 被拐带、群友过度依赖等异常。
+
+[麦麦喊新人说话（加群考察期）](https://github.com/ji-or-ji/group-probation-plugin)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/group-probation-plugin)
+新人入群自动 @ 欢迎邀请发言，超过考察时长（默认 48 小时）仍不发言的新成员自动移出群聊。
+
+[麦麦看到你了（群感知插件）](https://github.com/ji-or-ji/group-awareness-plugin)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/group-awareness-plugin)
+感知群人员变动（进群 / 退群 / 禁言 / 群名 / 管理变动），可选固定模板 / 人格化 LLM / 注入上下文三种处理；
+提供群荣誉、群员称号、群头像、群公告、禁言列表等工具化查询。
+
+[麦麦财务总结优化](https://github.com/ji-or-ji/maibot-expenses-summary-plus)　·　[Gitee 镜像](https://gitee.com/ji-or-ji/maibot-expenses-summary-plus)
+统计当天模型调用次数、回复量和成本并生成财报；在保留原版功能的基础上，新增官方牌价引擎、
+订阅制 / 混合计费口径与账本人工修正量。 **与原版互斥。**

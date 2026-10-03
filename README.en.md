@@ -19,6 +19,8 @@ Simple: click the **text** to jump to the **matching repository**.
 
 ## What's here now
 
+### Apps & tools
+
 [Python Rediscovery Path](https://github.com/ji-or-ji/Python-Rediscovery-Path)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/Python-Rediscovery-Path)
 A learning log of rediscovering Python from scratch: a study map, notes and exercises. **In progress.**
 
@@ -62,3 +64,45 @@ Adds flomo note writing, import, search and management to Hanako (agent-driven).
 See how a Windows machine is doing without opening a remote desktop: a C# + Avalonia desktop client
 plus a read-only Python collector, reading CPU / memory / disks / network / processes, and keeping an
 eye on chosen services and ports. UI style pays tribute to zmd-manager. **In progress.**
+
+### MaiBot / Hanako plugins
+
+[Plugin installer](https://github.com/ji-or-ji/maibot-plugin-installer)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/maibot-plugin-installer)
+Installs and enables a finished MaiBot plugin after **admin approval**, requesting that approval in the
+originating chat stream; the downstream companion of the [MaiBot × dsh bridge](https://github.com/ji-or-ji/maibot-dsh-bridge).
+
+[MaiBot × dsh bridge](https://github.com/ji-or-ji/maibot-dsh-bridge)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/maibot-dsh-bridge)
+Brings DeepSeek Harness into MaiBot: dispatch a task in one line, let dsh finish it in the background,
+stream progress back as a merged-forward card, bundle the produced files back to the group, and even
+self-schedule recurring jobs.
+
+[Hanako2DSH](https://github.com/ji-or-ji/hanako2dsh)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/hanako2dsh)
+Connects the local official DeepSeek Harness into Hana: **watch it work in a tab, hand it a task in one line.**
+
+[MaiBot pretends to watch videos](https://github.com/ji-or-ji/mai-video-adaptive)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/mai-video-adaptive)
+Video-understanding plugin: how many frames to sample is decided by the content (not a fixed timer),
+paired with speech transcription and handed to a vision model; repeated videos are reused in seconds.
+**It never comments on videos unprompted.**
+
+[MaiBot stops spamming emoji](https://github.com/ji-or-ji/maimai-no-more-emoji)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/maimai-no-more-emoji)
+Detects emoji in MaiBot's outgoing text, lets an LLM decide whether to swap it, and if so picks a fitting
+sticker image from the sticker library to append — fixing emoji crammed into messages that feel off-character.
+
+[Guardian alert](https://github.com/ji-or-ji/guardian-alert-plugin)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/guardian-alert-plugin)
+Watches private / group chats for risk signals (group-invite bait, emotional dependence, privacy leaks,
+money requests, impersonation, manipulation) and pushes hits to the admin, catching a hijacked bot or an
+over-dependent member early.
+
+[Group probation](https://github.com/ji-or-ji/group-probation-plugin)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/group-probation-plugin)
+Auto-@-welcomes new members to invite them to talk, and removes those who stay silent past the probation
+window (48 hours by default).
+
+[Group awareness](https://github.com/ji-or-ji/group-awareness-plugin)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/group-awareness-plugin)
+Senses member changes (join / leave / mute / group name / admin changes) with three handling modes
+(fixed template / persona LLM / context injection), and offers tools to query group honours, member
+titles, avatars, announcements, mute lists and more.
+
+[MaiBot expense summary+](https://github.com/ji-or-ji/maibot-expenses-summary-plus)  ·  [Gitee mirror](https://gitee.com/ji-or-ji/maibot-expenses-summary-plus)
+Turns the day's model calls, replies and cost into a report; on top of the original it adds a custom
+price engine, subscription / hybrid billing modes and a manual ledger correction. **Mutually exclusive
+with the original.**
