@@ -6,7 +6,7 @@
 
 ## 置物架
 
-是的，这里只是一个置物架，用来存放各种我自己做的一些小玩意。每个项目都在 **GitHub** 与 **Gitee** 同步维护：「链接」列指向 **GitHub 主仓库** 与 **Gitee 镜像**，「备注」列是该项目的说明。本店仓库的 Gitee 镜像在 [gitee.com/ji-or-ji/ji-or-ji-shop](https://gitee.com/ji-or-ji/ji-or-ji-shop)。
+是的，这里只是一个置物架，用来存放各种我自己做的一些小玩意。大部分项目在 **GitHub** 与 **Gitee** 双仓维护：「链接」列一般指向 **GitHub 主仓库** 与 **Gitee 镜像**；个别只有 Gitee，会标注「GitHub 镜像待建」。「备注」列是该项目的说明。本店仓库的 Gitee 镜像在 [gitee.com/ji-or-ji/ji-or-ji-shop](https://gitee.com/ji-or-ji/ji-or-ji-shop)。
 
 ## 使用说明
 
@@ -25,9 +25,9 @@
 | 超薄版 ZHAO-watchV2 · CLion 版 | [GitHub](https://github.com/ji-or-ji/ZHAO-watch-V2_CLion_Edition) · [Gitee](https://gitee.com/ji-or-ji/ZHAO-watch-V2_CLion_Edition) | 原版是 Keil（µVision5）工程，这里重制为 CLion + CMake 工程（超薄版），以适合现代化开发。 |
 | SPIKE 项目版本控制工具集 | [GitHub](https://github.com/ji-or-ji/spike-handler) · [Gitee](https://gitee.com/ji-or-ji/spike-handler) | 解包 / 打包 .llsp3 文件，配合 Git 做版本管理：仓库初始化与配置、一键清理 SPIKE 缓存、支持回退到任意历史版本。 |
 | 浮墨笔记（flomo）接入插件 | [GitHub](https://github.com/ji-or-ji/open-hanako-flomo) · [Gitee](https://gitee.com/ji-or-ji/open-hanako-flomo) | 为 Hanako 提供 flomo 笔记的写入、导入、搜索与管理能力（Agent 驱动）。 Apache-2.0。 |
-| 终末地风格局域网设备监视台 | [GitHub](https://github.com/ji-or-ji/endfield-monitor) · [Gitee](https://gitee.com/ji-or-ji/endfield-monitor) | 不开远程桌面就能看见一台 Windows 机器的运行状况：C# + Avalonia 桌面客户端配一个只读的 Python 采集端，实时读 CPU / 内存 / 磁盘 / 网络 / 进程，也能顺带盯住指定的服务与端口。界面风格致敬 zmd-manager。 **进行中。** |
+| 终末地风格局域网设备监视台 | [GitHub](https://github.com/ji-or-ji/endfield-monitor) · [Gitee](https://gitee.com/ji-or-ji/endfield-monitor) | 不开远程桌面就能看见一台 Windows 机器的运行状况：C# + Avalonia 桌面客户端配一个只读的 Go 单文件采集端（早期 Python 版已弃用，留作参考），实时读 CPU / 内存 / 磁盘 / 网络 / 进程，也能顺带盯住指定的服务与端口。界面风格致敬 zmd-manager。 **进行中。** |
 | RVC 实时变声 · ONNX 版 | [GitHub](https://github.com/ji-or-ji/rvc-onnx-realtime) · [Gitee](https://gitee.com/ji-or-ji/rvc-onnx-realtime) | 把 RVC 实时变声接到 **ONNX Runtime** 上，绕开 `torch-directml` 的性能坑，并横向对比 CPU / 独显(DML) / 核显(DML) 三种后端。同硬件下快 10~25 倍；结论是核显跑实时不成立，真正有意义的是 2060 走 ONNX 或 CPU 走 ONNX。附带浏览器控制台与三处 RVC-WebUI 补丁。 |
-| 机械动力：浆果工业（模组企划） | [GitHub](https://github.com/ji-or-ji/Create-Berries) · [Gitee](https://gitee.com/ji-or-ji/Create-Berries) | 把原版那条单薄的「浆果」食物线接进机械动力的自动化与多步加工逻辑，让浆果不只是食物，更是工业原料。仓库目前是设计文档：新物品 / 方块 / 流体清单，外加连锁经济与生存机制平衡（副产物双向决策、兼容 Tough As Nails 的水分值惩罚）。 **企划阶段。** |
+| 机械动力：浆果工业（模组企划） | [Gitee](https://gitee.com/ji-or-ji/Create-Berries) · _GitHub 镜像待建_ | 把原版那条单薄的「浆果」食物线接进机械动力的自动化与多步加工逻辑，让浆果不只是食物，更是工业原料。仓库目前是设计文档：新物品 / 方块 / 流体清单，外加连锁经济与生存机制平衡（副产物双向决策、兼容 Tough As Nails 的水分值惩罚）。 **企划阶段。** |
 | 插件安装审批器 | [GitHub](https://github.com/ji-or-ji/maibot-plugin-installer) · [Gitee](https://gitee.com/ji-or-ji/maibot-plugin-installer) | 把造好的麦麦插件经**管理员批准**后自动安装并启用，在发起任务的聊天流里请求审批；是[麦麦 × dsh 桥](https://github.com/ji-or-ji/maibot-dsh-bridge)的配套下游。 |
 | 麦麦 × dsh 桥 | [GitHub](https://github.com/ji-or-ji/maibot-dsh-bridge) · [Gitee](https://gitee.com/ji-or-ji/maibot-dsh-bridge) | 把 DeepSeek Harness 接入麦麦：一句话下单、dsh 在后台把活干完，过程以合并转发回传，产出的文件打包发回群，还能定时自排班。 |
 | Hanako2DSH | [GitHub](https://github.com/ji-or-ji/hanako2dsh) · [Gitee](https://gitee.com/ji-or-ji/hanako2dsh) | 把本机官方的 DeepSeek Harness 接进 Hana：**一个页签里看它干活，一句话把活派给它。** |
@@ -37,5 +37,5 @@
 | 窝幺烟牌（预警管家） | [GitHub](https://github.com/ji-or-ji/guardian-alert-plugin) · [Gitee](https://gitee.com/ji-or-ji/guardian-alert-plugin) | 监测私聊 / 群聊中的风险信号（拉群邀请 / 情感依赖 / 隐私泄露 / 金钱往来 / 冒充话术 / 诱导操纵），命中后自动推送管理员，及时发现 bot 被拐带、群友过度依赖等异常。 |
 | 麦麦喊新人说话（加群考察期） | [GitHub](https://github.com/ji-or-ji/group-probation-plugin) · [Gitee](https://gitee.com/ji-or-ji/group-probation-plugin) | 新人入群自动 @ 欢迎邀请发言，超过考察时长（默认 48 小时）仍不发言的新成员自动移出群聊。 |
 | 麦麦看到你了（群感知插件） | [GitHub](https://github.com/ji-or-ji/group-awareness-plugin) · [Gitee](https://gitee.com/ji-or-ji/group-awareness-plugin) | 感知群人员变动（进群 / 退群 / 禁言 / 群名 / 管理变动），可选固定模板 / 人格化 LLM / 注入上下文三种处理；提供群荣誉、群员称号、群头像、群公告、禁言列表等工具化查询。 |
-| 麦麦财务总结优化 | [GitHub](https://github.com/ji-or-ji/maibot-expenses-summary-plus) · [Gitee](https://gitee.com/ji-or-ji/maibot-expenses-summary-plus) | 统计当天模型调用次数、回复量和成本并生成财报；在保留原版功能的基础上，新增官方牌价引擎、订阅制 / 混合计费口径与账本人工修正量。 **与原版互斥。** |
+| 麦麦财务总结优化 | [GitHub](https://github.com/ji-or-ji/maibot-expenses-summary-plus) · [Gitee](https://gitee.com/ji-or-ji/maibot-expenses-summary-plus) | 统计当天模型调用次数、回复量和成本并生成财报；在保留原版功能的基础上，新增官方牌价引擎、订阅制 / 混合计费口径与账本人工修正量。 **与原版互斥。** 本仓库是优化分支，另有一个原版 fork（maibot-expenses-summary-plugin，含捐赠账本等改动），不单独收录。 |
 | 背水一战（Last Stand） | [Gitee](https://gitee.com/ji-or-ji/last-stand) · _GitHub 镜像待建_ | Minecraft 1.21.1 的 NeoForge 模组：你身上的某个部分还没打算让你死。致命一击到来时，若身体还有余粮就把死亡换成三分钟的锁血窗口，窗口里每一次受伤都在加倍燃烧饱食度；撑过去是虚弱期，撑不过去是一段能看着自己倒下的处决演出。含二连触发、PVP 五秒回溯、低血预演与全参数配置。 **开发中，加载与渲染已实机跑通，数值与手感仍在调。** Apache-2.0。 |
