@@ -32,7 +32,7 @@
 | 麦麦 × dsh 桥 | [GitHub](https://github.com/ji-or-ji/maibot-dsh-bridge) · [Gitee](https://gitee.com/ji-or-ji/maibot-dsh-bridge) | 把 DeepSeek Harness 接入麦麦：一句话下单、dsh 在后台把活干完，过程以合并转发回传，产出的文件打包发回群，还能定时自排班。 |
 | Hanako2DSH | [GitHub](https://github.com/ji-or-ji/hanako2dsh) · [Gitee](https://gitee.com/ji-or-ji/hanako2dsh) | 把本机官方的 DeepSeek Harness 接进 Hana：**一个页签里看它干活，一句话把活派给它。** |
 | 麦麦假装看视频 | [GitHub](https://github.com/ji-or-ji/mai-video-adaptive) · [Gitee](https://gitee.com/ji-or-ji/mai-video-adaptive) | 麦麦视频理解插件：抽多少帧由画面内容决定（不是定时抽），配合语音转录交给视觉模型理解，重复视频秒级复用。**不会主动对视频发表评论。** |
-| Hana 看视频（视频理解插件） | [Gitee](https://gitee.com/ji-or-ji/hanako-video-understand) · _GitHub 镜像待建_ | HanaAgent 的视频理解插件：抽多少帧由画面变化决定，不是定时抽；配合语音转录交给视觉模型，产出带时间戳的描述。纯音频文件也能直接读。算法移植自「麦麦假装看视频」，外壳换成 Hana 插件。 PolyForm Noncommercial 1.0.0。 |
+| Hanako 假装看视频 | [Gitee](https://gitee.com/ji-or-ji/hanako-video-understand) · _GitHub 镜像待建_ | HanaAgent 的视频理解插件：抽多少帧由画面变化决定，不是定时抽；配合语音转录交给视觉模型，产出带时间戳的描述。纯音频文件也能直接读。算法移植自「麦麦假装看视频」，外壳换成 Hana 插件。 PolyForm Noncommercial 1.0.0。 |
 | 麦麦不发 emoji 了 | [GitHub](https://github.com/ji-or-ji/maimai-no-more-emoji) · [Gitee](https://gitee.com/ji-or-ji/maimai-no-more-emoji) | 检测麦麦出站消息里的 emoji，由 LLM 判断是否该替换，若该换就从表情包库挑一张合适的图片放到消息末尾，治「结尾/句中硬塞 emoji、用得多且不贴切、显得出戏」。 |
 | 窝幺烟牌（预警管家） | [GitHub](https://github.com/ji-or-ji/guardian-alert-plugin) · [Gitee](https://gitee.com/ji-or-ji/guardian-alert-plugin) | 监测私聊 / 群聊中的风险信号（拉群邀请 / 情感依赖 / 隐私泄露 / 金钱往来 / 冒充话术 / 诱导操纵），命中后自动推送管理员，及时发现 bot 被拐带、群友过度依赖等异常。 |
 | 麦麦喊新人说话（加群考察期） | [GitHub](https://github.com/ji-or-ji/group-probation-plugin) · [Gitee](https://gitee.com/ji-or-ji/group-probation-plugin) | 新人入群自动 @ 欢迎邀请发言，超过考察时长（默认 48 小时）仍不发言的新成员自动移出群聊。 |
